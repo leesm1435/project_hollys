@@ -1,0 +1,31 @@
+a {
+  text-decoration: none;
+}
+
+
+#toogle {
+  display: none;
+}
+
+.m_swiper {
+  display: none;
+}
+
+
+.gnb i.fa-angle-down {
+  display: none;
+}
+
+.m_login {
+  display: none;
+}
+
+.m_join {
+  display: none;
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+  scroll-behavior: smooth;
+}

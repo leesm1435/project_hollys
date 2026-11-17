@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="할리스의 다양한 커피와 음료, 가을 시즌 신메뉴, MD 상품, 이벤트 및 매장 정보를 만나보세요.">
+    <title>할리스에 오신것을 환영합니다.</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- 아이콘 폰트 -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <!-- 스와이퍼 슬라이드 서식 -->
+    <link rel="stylesheet" href="css/swiper.css" type="text/css" />
+    <!-- 공통서식 -->
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <!-- 초기화 서식 -->
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <!-- pc 레이아웃 서식 -->
+    <link rel="stylesheet" href="css/pc.css" type="text/css">
+    <!-- tablet 레이아웃 서식 -->
+    <link rel="stylesheet" href="css/tablet.css" type="text/css">
+    <!-- mobile 레이아웃 서식 -->
+    <link rel="stylesheet" href="css/mobile.css" type="text/css">
+  </head>
+  <body>
+    <input type="checkbox" id="toggle">
+    <!-- 헤더영역 -->
+    <header>
+      <!-- 상단 로고, 아이콘 ,검색 -->
+      <div class="h_top center_cont">
+        <h1><a href="#TOP" title="메인페이지로 바로가기"><img src="images/LOGO.png"
+              alt></a></h1>
+
+        <nav class="h_right">
+          <input class="search_box" type="search" placeholder="검색"><i class="fas fa-search"></i>
+          <a href="https://www.facebook.com/EnjoyHollys/?locale=ko_KR"
+            target="_blank"><img src="images/facebook_icon.png"
+              alt="페이스북 바로가기"></a>
+          <a href="https://www.instagram.com/official_hollys/?hl=ko"
+            target="_blank"><img src="images/instagram_icon.png"
+              alt="인스타그램 바로가기"></a>
+          <a href="https://x.com/Hollys_kr" target="_blank"><img
+              src="images/x_icon.png" alt="X(트위터) 바로가기"></a>
+          <a href="#"><img class="login" src="images/login.png" alt="로그인"></a>
+        </nav>
+      </div>
+
+      <div class="search_box2">
+        <input type="search" id="sh2" placeholder="검색어 입력">
+        <label for="sh2"><i class="fas fa-search"></i><span>검색</span></label>
+      </div>
+
+      <a href="#" class="m_login">로그인</a>
+      <a href="#" class="m_join">회원가입</a>
+
+      <!-- 모바일, 태블릿에서 나타나는 메뉴, 버튼 -->
+      <label for="toggle"><i class="fas fa-bars"></i></label>
+
+      <!-- 모바일 해상도에서 보여지는 검색버튼 -->
+      <i class="fas fa-search m_search_btn"></i>
+
+      <!-- pc 2단 내비게이션 시작 -->
+      <div id="navi_wrap" class="center_cont">
+
+        <nav class="gnb">
+          <label for="toggle"><i class="fas fa-times"></i></label>
+          <ul>
+            <li class="menu_li">
+              <a href="menu.html" title="메뉴">메뉴<i
+                  class="fas fa-angle-down"></i></a>
+              <!-- 서브메뉴 위치 -->
+              <ul class="sub">
+                <li><a href="m.html" title="">음료</a></li>
+                <li><a href="m.html" title="">베이커리</a></li>
+                <li><a href="m.html" title="">푸드</a></li>
+                <li><a href="m.html" title="">MD상품</a></li>
+                <li><a href="m.html" title="">기프티콘</a></li>
+              </ul>
+            </li>
+
+            <li class="menu_li">
+              <a href="store.html" title="매장">매장<i
+                  class="fas fa-angle-down"></i></a>
+              <ul class="sub">
+                <li><a href="s.html" title="">매장찾기</a></li>
+
+              </ul>
+            </li>
+
+            <li class="menu_li">
+              <a href="membership.html" title="멤버쉽">멤버쉽<i
+                  class="fas fa-angle-down"></i></a>
+              <ul class="sub">
+                <li><a href="mem.html" title="">스마트오더</a></li>
+                <li><a href="mem.html" title="">멤버쉽혜택</a></li>
+              </ul>
+            </li>
+
+            <li class="menu_li">
+              <a href="news.html" title="할리스소식">할리스소식<i
+                  class="fas fa-angle-down"></i></a>
+              <ul class="sub">
+                <li><a href="n.html" title="">공지사항</a></li>
+                <li><a href="n.html" title="">이벤트</a></li>
+
+              </ul>
+            </li>
+
+            <li class="menu_li">
+              <a href="help.html" title="고객지원">고객지원<i
+                  class="fas fa-angle-down"></i></a>
+              <ul class="sub">
+                <li><a href="help.html" title="">1 : 1문의</a></li>
+                <li><a href="help.html" title="">FAQ</a></li>
+                <li><a href="help.html" title="">고객의소리</a></li>
+                <li><a href="help.html" title="">케이터링</a></li>
+              </ul>
+            </li>
+
+            <li class="menu_li">
+              <a href="brnad.html" title="할리스 소개">할리스소개<i
+                  class="fas fa-angle-down"></i></a>
+              <ul class="sub">
+                <li><a href="b.html" title="">브랜드소개</a></li>
+                <li><a href="b.html" title="">B2B사업</a></li>
+                <li><a href="b.html" title="">채용안내</a></li>
+                <li><a href="b.html" title="">가맹문의 및 절차</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- 메인콘텐츠 영역 -->
+    <main>
+      <!--1번Swiper 슬라이드 = 메인 슬라이드 -->
+      <article class="swiper mySwiper pcswiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a href="i.html" title="메인슬라이드1바로가기"><img src="images/main_slide.png"
+                alt="메인슬라이드1"></a></div>
+          <div class="swiper-slide"><a href="i.html" title="메인슬라이드2바로가기"><img src="images/main_slide02.png"
+                alt="메인슬라이드2"></a></div>
+          <div class="swiper-slide"><a href="i.html" title="메인슬라이드3바로가기"><img src="images/main_slide03.png"
+                alt="메인슬라이드3"></a></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </article>
+
+      <!-- 모바일 슬라이드 -->
+      <article class="m_swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a href="inf.html" title="해당페이지로 이동"><img src="images/모바일_메인베너.png"
+                alt></a></div>
+          <div class="swiper-slide"><a href="inf.html" title="해당페이지로 이동"><img src="images/모바일_메인베너2.jpg"
+                alt></a></div>
+          <div class="swiper-slide" ><a href="inf.html" title="해당페이지로 이동"><img src="images/모바일_메인베너3.png"
+                alt></a></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </article>
+
+      <!-- 2번 콘텐츠 메뉴소개 -->
+      <section class="cont2">
+        <article class="menu_txt">
+          <h2>할리스의 가을시즌 신메뉴</h2>
+          <h3>가을은 K-MOOD</h3>
+          <p>
+            선선한 가을, 한국의 감성을 담은 새로운 메뉴!<br> 가을에만 즐길 수 있는 특별한 신메뉴<br> 지금 만나보세요!
+          </p>
+          <a href="menu.html">메뉴 더보기</a>
+        </article>
+
+        <div class="swiper menu_list menu_Swiper">
+          <div class="swiper-wrapper" id="swiper-wrapper">
+            <div class="swiper-slide">
+              <ul>
+                <li>
+                  <a href="#" title="흑임자 버터그림 라뗴 페이지 바로가기">
+                    <img src="images/menu1.png" alt="흑임자 버터크림 라떼">
+                    <h4>흑임자 버터크림 라떼</h4>
+                    <p>고소한 흑임자와 진한 에스프레소,<br> 부드러운 버터크림이 조화롭게 어우러진 흑임자 라떼</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide">
+              <ul>
+                <li>
+                  <a href="#" title="흑임자 라이스 할라치노 페이지 바로가기">
+                    <img src="images/menu2.png" alt="흑임자 라이스 할리치노">
+                    <h4>흑임자 라이스 할리치노</h4>
+                    <p>고소한 흑임자와 부드러운 버터크림, <br> 바삭한 쌀크런치가 어우러진 할리치노</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide">
+              <ul>
+                <li>
+                  <a href="#" title="호감 스무디 페이지 바로가기">
+                    <img src="images/menu3.png" alt="호감 스무디">
+                    <h4>호감 스무디</h4>
+                    <p>달콤한 홍시와 곶감의 진한 풍미에 <br>초코 호랑이 무늬와 쫀득한 찹쌀떡을 더한 홍시 스무디</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+
+      <!-- 3번콘텐츠 이벤트 -->
+      <section class="cont3">
+        <article>
+          <h2>HOLLYS EVENT</h2>
+          <div class="cont3_grid">
+            <figure>
+              <a href="e.html" title=""><img src="images/모바일_메인베너.png" alt="베너1페이지로 바로가기"></a>
+              <figcaption>
+                <a href="e.html" title="할리스 멤버쉽 회원을 위한 9월의 선물 페이지로 바로가기">
+                  <h3>할리스 멤버쉽 회원을 위한 9월의 선물</h3>
+                  <p>2026.09.01 ~</p>
+                </a>
+              </figcaption>
+            </figure>
+
+            <figure>
+              <a href="e.html"><img src="images/모바일_메인베너2.jpg" alt="베너2페이지로 바로가기"></a>
+              <figcaption>
+                <a href="e.html" alt="베너2페이지로 바로가기">
+                  <h3>[이벤트]할리스 가을 신메뉴<br> with RESCENCE 스페셜 기프트</h3>
+                  <p>2026.09.14 ~</p>
+                </a>
+              </figcaption>
+            </figure>
+
+            <figure>
+              <a href="e.html"><img src="images/모바일_메인베너3.png" alt="베너3페이지로 바로가기"></a>
+              <figcaption>
+                <a href="e.html" title="베너3페이지로 바로가기">
+                  <h3>[이벤트]리센느 세트 구매 시,<br> 포토카드 랜덤 증정</h3>
+                  <p>2026.08.26 ~</p>
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+          <a href="event.index" title="이벤트 정보 페이지로 이동하기" class="cont3_btn">이벤트 더보기</a>
+        </article>
+
+      </section>
+
+      <!-- 4번콘텐츠 MD상품 -->
+      <section class="cont4">
+        <!-- 전체 콘텐츠 가운데 정렬을 위한 내부 컨테이너 -->
+        <div class="shop_inner">
+
+          <!-- 우측 상단 SHOP 타이틀 -->
+          <div class="shop_title">
+            <h2>HOLLYS MD</h2>
+          </div>
+
+          <!-- Swiper -->
+          <div class="swiper shop_list md_Swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="store.html" title="시그니처 아메리카노 미니10T 구매 페이지 바로가기">
+                  <div class="product_card">
+                    <img src="images/md1.png" alt="">
+                  </div>
+                  <p class="product_name">시그니처 아메리카노 미니10T</p>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a href="store.html" title="디카페인 아메리카노 미니 30T 구매 페이지 바로가기">
+                  <div class="product_card">
+                    <img src="images/md2.png" alt="">
+                  </div>
+                  <p class="product_name">디카페인 아메리카노 미니 30T</p>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a href="store.html" title="헤이즐넛 아메리카노 12T 구매 페이지 바로가기">
+                  <div class="product_card">
+                    <img src="images/md3.png" alt="">
+                  </div>
+                  <p class="product_name">헤이즐넛 아메리카노 12T</p>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a href="store.html" title="슬릿캡 실리콘 텀블러 (옐로우) 구매 페이지 바로가기">
+                  <div class="product_card">
+                    <img src="images/md4.png" alt="">
+                  </div>
+                  <p class="product_name">슬릿캡 실리콘 텀블러 (옐로우)</p>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a href="store.html" title="올데이 텀블러 (메탈) 구매 페이지 바로가기">
+                  <div class="product_card">
+                    <img src="images/md5.png" alt="">
+                  </div>
+                  <p class="product_name">올데이 텀블러 (메탈)</p>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a href="store.html" title="크루아상이었던 크룽지 구매 페이지 바로가기">
+                  <div class="product_card">
+                    <img src="images/md6.png" alt="">
+                  </div>
+                  <p class="product_name">크루아상이었던 크룽지</p>
+                </a>
+              </div>
+
+              <!-- 양옆 화살표 -->
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+
+      <!-- 5번 콘텐츠 sns -->
+      <section class="cont5">
+        <h2>HOLLYS SNS</h2>
+        <article>
+          <div class="cont5_grid">
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns1.png"
+                  alt=></a></div>
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns2.png"
+                  alt></a></div>
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns3.png"
+                  alt></a></div>
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns4.png"
+                  alt></a></div>
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns5.png"
+                  alt></a></div>
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns6.png"
+                  alt></a></div>
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns7.png"
+                  alt></a></div>
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns8.png"
+                  alt></a></div>
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns9.png"
+                  alt></a></div>
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns10.png"
+                  alt></a></div>
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns11.png"
+                  alt></a></div>
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns12.png"
+                  alt></a></div>
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns13.png"
+                  alt></a></div>
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns14.png"
+                  alt></a></div>
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns15.png"
+                  alt></a></div>
+            <div class="c5_img"><a href="s.index" title="해당페이지로 이동하기"><img src="images/sns16.png"
+                  alt></a></div>
+          </div>
+        </article>
+      </section>
+
+      <!-- 6번 콘텐츠 창업-->
+      <section class="cont6">
+        <article class="cont6_wrap">
+          <img src="./images/brand.png" alt="창업이미지">
+          <div class="c6_tb">
+            <p class="c6_text">
+              고객과 가맹점주, 협력사의<br>
+              상생의 가치를 실천합니다.
+            </p>
+            <div class="c6_btn">
+              <a href="in.html" title="창업 안내 페이지로 이동">창업 안내</a>
+              <a href="in.html" title="창업 설명회 안내 페이지로 이동">창업설명회 안내</a>
+              <a href="in.html" title="브랜드 소개 페이지로 이동">브랜드 소개</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- 탑버튼 -->
+      <button id="topBtn" title="맨 위로 가기"><i
+          class="fa-solid fa-arrow-up"></i><span>TOP</span></button>
+    </main>
+
+    <!-- 푸터영역 -->
+    <footer>
+
+      <div class="f_top">
+        <h2 class="f_logo">HOLLYS</h2>
+        <div class="f_tel">
+          <p>대표전화</p>
+          <strong>00-0000-0000</strong>
+        </div>
+      </div>
+
+      <nav class="f_nav">
+        <ul>
+          <li><a href="#" title="개인정보처리방침">개인정보처리방침</a></li>
+          <li><a href="#" title="할리스카드 이용약관">할리스카드 이용약관</a></li>
+          <li><a href="#" title="서비스 이용약관">서비스 이용약관</a></li>
+          <li><a href="#" title="위치정보 이용약관">위치정보 이용약관</a></li>
+          <li><a href="#" title="멤버쉽 이용약관">멤버쉽 이용약관</a></li>
+          <li><a href="#" title="고객문의">고객문의</a></li>
+          <li><a href="#" title="사이트맵">사이트맵</a></li>
+          <li><a href="#" title="BI소개">BI소개</a></li>
+        </ul>
+      </nav>
+
+      <address class="f_address">법인명: (주)케이지에프앤비 대표자: OOO 사업자등록번호000-00-0000
+        통신판매업: 제0000-서울종로-000호<br>주소 : 서울특별시 중구 통일로 00, 0층(순화동, 케이지타워) (가맹문의 :
+        00-0000-0000)</address>
+      <p class="f_copyright">COPYRIGHT (C) KG F&B. All Rights Reserved.</p>
+    </footer>
+    <!-- Swiper JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/gnb.js"></script>
+
+    <script src="js/3depthnavi.js"></script>
+
+  </body>
+</html>
